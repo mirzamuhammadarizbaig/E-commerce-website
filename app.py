@@ -8,7 +8,7 @@ nav1, nav2, nav3, nav4, nav5 = st.columns([2, 1, 1, 1, 1])
 with nav1:
     st.markdown('<div class="brand">🍗 Nuggets</div>', unsafe_allow_html=True)
 with nav2:
-    st.page_link("app.py", label="Home")
+    st.markdown('<div style="color:#FF7A1A; font-size:14px; font-weight:600; padding-top:6px;">Home</div>', unsafe_allow_html=True)
 with nav3:
     st.page_link("pages/1_Shop.py", label="Shop")
 with nav4:
